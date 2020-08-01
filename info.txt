@@ -12,3 +12,5 @@ git reset --hard 5a061ed5f475bcc592a1090d68aee49510994ae7
 git clean -n // отображает файлы, созданные после коммита
 git clean -f // удаляет untracked файлы
 git remote add origin https://github.com/White-Rabbitt/testwr // назначить удалённый репозиторий с названием "origin" по указанному адресу
+git pull origin master //скачать ветку "master" из репозитория "origin"
+git remote -v // просмотреть список удалённых репозиториев
