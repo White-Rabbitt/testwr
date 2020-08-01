@@ -1,0 +1,14 @@
+git status
+git log
+git init // назначить текущую папку репозиторием
+git add .
+git add java
+git commit -m "sampletext"
+git commit -a -m "sampletext" // не добавляет новые (untracked) файлы
+git commit --amend -m "sampletext" // дополняет коммит, не создаёт новый
+git reset --soft HEAD^ // изменения остаются отслеживаемыми
+git reset --mixed HEAD~4 // изменения становятся untracked
+git reset --hard 5a061ed5f475bcc592a1090d68aee49510994ae7
+git clean -n // отображает файлы, созданные после коммита
+git clean -f // удаляет untracked файлы
+git remote add origin https://github.com/White-Rabbitt/testwr // назначить удалённый репозиторий с названием "origin" по указанному адресу
