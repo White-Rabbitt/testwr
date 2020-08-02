@@ -12,5 +12,12 @@ git reset --hard 5a061ed5f475bcc592a1090d68aee49510994ae7
 git clean -n // отображает файлы, созданные после коммита
 git clean -f // удаляет untracked файлы
 git remote add origin https://github.com/White-Rabbitt/testwr // назначить удалённый репозиторий с названием "origin" по указанному адресу
-git pull origin master //скачать ветку "master" из репозитория "origin"
-git remote -v // просмотреть список удалённых репозиториев
+git pull origin master //скачать ветку "master" из репозитория "origin" и объединить с локальной веткой
+git remote -v // отображает список удалённых репозиториев
+git branch // отображает название текущей ветки (на которой находится указатель HEAD)
+git branch testname // создать ветку под названием "testname"
+git branch -d testname // удалить ветку с названием "testname"
+git checkout testname // переключиться на ветку "testname"
+git merge testname // сливает ветку "testname" в ветку "master". Вызывается, находясь на ветке "master"
+git branch -r // отображает список удалённых веток
+git fetch // скачивает удалённые ветки с репозитория, но не сливает их с локальными (fast-forward-слияние)
