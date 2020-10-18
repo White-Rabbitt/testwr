@@ -1,2 +1,0 @@
-string user 1
-new
