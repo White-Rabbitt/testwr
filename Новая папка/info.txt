@@ -1,4 +1,4 @@
-
+1rrrrr
 git commit -a -m "sampletext" // не добавляет новые (untracked) файлы
 git commit --amend -m "sampletext" // дополняет коммит, не создаёт новый
 git reset --soft HEAD^ // изменения остаются отслеживаемыми
